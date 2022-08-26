@@ -1,0 +1,31 @@
+/* body {
+    background-image: url(/portfolio-wfb/img/contact1.jpg);
+    background-size: cover;
+    height: 100vh;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box-container {
+    text-align: center;
+}
+.box {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    width: 25%;
+    max-width: 180px;
+    text-align: center;
+    transition: box-shadow .5s;
+    vertical-align: top;
+}
+.box:hover {
+    box-shadow: 0 0 50px white;
+}

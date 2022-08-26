@@ -1,0 +1,63 @@
+
+
+.education ul {
+    list-style-type: disc;
+    font-size: 18px;
+}
+.container {
+    margin-top: 55px;
+}
+.education {
+    height: 80%;
+    width: 40%;
+    padding-bottom: 75px;
+    margin-left: 7%;
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.languages-frameworks {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+.fa-brands .coming-soon {
+    font-size: 8px;
+    color: red;
+}
+.fa-brands {
+    vertical-align: top;
+}
+.fa-brands p {
+    font-size: 14px;
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+}
+
+.fa-html5 {
+    color: rgb(219, 110, 0);
+    display: inline-block;
+}
+.fa-css3-alt {
+    color: rgb(123, 0, 205);
+    display: inline-block;
+
+}
+.fa-js {
+    color: yellow;
+}
+.fa-bootstrap {
+    color: rgb(123, 0, 255);
+}
+.fa-react {
+    color: aqua;
+}
+

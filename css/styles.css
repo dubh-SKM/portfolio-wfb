@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .9)), url(/portfolio-wfb/img/skills1.jpg); */
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.922), rgba(122, 39, 0, 0.2)), url(/portfolio-wfb/img/background.jpg);
+    /* background-image: url(/portfolio-wfb/img/skills1.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+.emphasis {
+    color: red;
+}
+
+header {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgb(201, 115, 64);
+    font-family: 'Barlow', sans-serif;
+}
+
+p {
+    color: white;
+    margin: 10px;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aldrich', sans-serif;
+    margin-bottom: 15px;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 20px;
+}
+.basic-box ul li {
+    color: rgb(255, 235, 218);
+    font-family: 'Barlow', sans-serif;
+}
+
+.basic-box {
+    background-color: rgba(0, 0, 0, .8);
+    color: wheat;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    transition: box-shadow .5s;
+    margin: 3%;
+}
+.basic-box ul li {
+    list-style-type: disc;
+    margin-bottom: 7px;
+}
+
+.music-container {
+}
+.music-explanation {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-57%, 5%);
+    text-align: center;
+}
+.music-player {
+    position: absolute;
+    top: 70%;
+    left: 54.5%;
+    transform: translate(-57%, 5%);
+
+}
+
+/* This is the code for centering a div */
+/* position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-57%, 5%); */
+
+
+
+/* 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Barlow&family=Bungee+Hairline&family=Dosis&family=Encode+Sans+SC&family=IBM+Plex+Mono:wght@300&family=IM+Fell+English+SC&family=Michroma&family=Montserrat+Subrayada&family=Montserrat:ital,wght@0,300;1,100&family=Nanum+Myeongjo&family=Noto+Serif+HK:wght@200&family=Odibee+Sans&family=Play&family=Prompt:wght@300&family=Raleway:wght@300&family=Rubik+Dirt&family=Russo+One&family=Silkscreen&family=Staatliches&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+CSS rules to specify families */
+
+/* 
+font-family: 'Aldrich', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Encode Sans SC', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Michroma', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Noto Serif HK', serif;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Silkscreen', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Ubuntu', sans-serif; */

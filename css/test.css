@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(/portfolio-wfb/img/code.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+header {
+    height: 500px;
+    /* background-image: url(/portfolio-wfb/img/code.jpg);
+    background-size: cover; */
+}
+
+/* .stripe {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(21, 0, 0, 0.4);
+    position: absolute;
+    top: 25px;
+} */
+.navbar {
+    line-height: 1.4;
+    text-align: center;
+    position: relative;
+}
+.navbar-list {
+    display: inline-block;
+}
+.navbar-left {
+    position: absolute;
+    left: 5%;
+}
+.logo {
+    display: inline-block;
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-57%, 10%);
+}
+.navbar-right {
+    position: absolute;
+    right: 5%;
+}
+
+    /* width: 500px;
+    height: 281px; */
+    /* width: 100px;
+    height: 56.2px; */
+    /* background-image: url("/portfolio-wfb/img/logo-bw-rec.png");
+    background-size: cover; */
+
+.navbar ul li {
+    font-family: 'Aldrich', sans-serif;
+    background-color: rgba(56, 19, 0, 0.8);
+    padding: 5px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+
+}
+
+.main-heading {
+    /* color: rgb(255, 214, 187); */
+    color: rgb(255, 220, 196);
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 175px;
+    background-color: rgba(60, 0, 0, .6);
+    padding: 20px;
+    text-shadow: 2px 2px 1px black;
+}
+.main-heading h1 {
+    font-family: 'Aldrich', sans-serif;
+}
+
+
+
+
+
+/* font-family: 'Aldrich', sans-serif;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Encode Sans SC', sans-serif;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Silkscreen', cursive; */
