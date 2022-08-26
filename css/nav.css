@@ -11,7 +11,7 @@ header {
 }
 .navbar-background {
     height: 120px;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.4) 80%), url(/portfolio-wfb/img/pure4.jpg);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.4) 80%), url(../img/pure4.jpg);
     background-size: cover;
     position: relative;
     top: 20px;
@@ -68,7 +68,7 @@ header {
 }
 
 .navbar ul li:active {
-    background-image: url(/portfolio-wfb/img/eh-logo.png);
+    background-image: url(../img/eh-logo.png);
     background-size: contain;
     background-position: center;
     color: rgb(255, 153, 0);
