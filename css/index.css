@@ -4,7 +4,7 @@
     position: relative;
     top: 0px;
     height: 60vh;
-    background-image: url("/portfolio-wfb/img/background.jpg");
+    background-image: url("../img/background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
