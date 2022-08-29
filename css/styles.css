@@ -16,14 +16,28 @@ body {
     background-position: center;
     height: 100vh;
 }
+
 .emphasis {
-    color: red;
+    color: rgb(255, 123, 0);
 }
+
 
 header {
     height: 120px;
     margin-bottom: 10px;
 }
+
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.233);
+    background: rgb(11,1,1);
+    background: linear-gradient(90deg, rgba(11,1,1,1) 3%, rgba(192, 101, 32, 0.228) 24%, rgba(11,1,1,0.5163107479319853) 35%, rgba(124, 6, 6, 0.32) 57%, rgba(0,0,0,1) 100%);
+    padding: .75rem;
+}
+/* gradient from https://cssgradient.io/ although I customized it to my liking*/
 
 a {
     color: rgb(201, 115, 64);

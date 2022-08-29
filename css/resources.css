@@ -5,9 +5,6 @@
 } */
 
 
-.emphasis {
-    color: rgb(255, 123, 0);
-}
 
 .lists {
     display: flex;
@@ -36,71 +33,69 @@
 
 }
 
-.box1 {
+
+.main {
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 2px 2px 10px rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, .8);
-    color: rgb(255, 245, 225);
-    padding: 30px;
-    width: 50vw;
-
 }
 
-.box2 {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 2px 2px 10px rgb(255, 255, 255);
-    /* margin-left: 40px;
-    margin-top: 40px; */
-    background-color: rgba(0, 0, 0, .8);
-    color: rgb(255, 245, 225);
-    /* padding: 30px; */
-    width: 90%;
-}
-
-.creator-container {
+.resources-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
-    flex-grow: 1;
-    flex-shrink: 1;
 
 }
-
-.creator {
+.resources-study-tips {
+    min-width: 400px;
+    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+}
+.resources-study-tips ul {
+    margin: 0 2rem;
+}
+.resources-websites {
+    min-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.resources-websites ul {
+    margin: 0 2rem;
+}
+
+
+.resources-youtube-channels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resources-youtube-channels-row {
+    display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 50vmin;
+}
+
+
+.youtube-channel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     background-color: rgba(111, 0, 0, 0.132);
     border: 2px solid white;
     padding: 2rem;
     margin: 1rem;
-    height: 400px;
     transition:  box-shadow .5s;
     border-radius: 10px;
-
 }
-.creator:hover {
+.youtube-channel:hover {
     box-shadow: 0 0 15px rgb(255, 255, 255);
 }
-a {
+.basic-box a {
     color: rgb(244, 137, 36);
     text-decoration: underline;
 }
-
 a:visited {
     color: rgb(237, 203, 171);
 }
