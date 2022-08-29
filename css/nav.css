@@ -34,7 +34,7 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-57%, 5%);
+    transform: translate(-52%, -2%);
     opacity: 80%;
     box-shadow: 0 0 10px white;
 }
@@ -68,7 +68,7 @@ header {
 }
 
 .navbar ul li:active {
-    background-image: url(/portfolio-wfb/img/eh-logo.png);
+    background-image: url(../img/eh-logo.png);
     background-size: contain;
     background-position: center;
     color: rgb(255, 153, 0);

@@ -65,13 +65,15 @@ footer {
     float: right;
     margin-right: 20px;
     margin-top: 10px;
+    padding-top: 10px;
+    border: 1px solid transparent;
 }
 
 .e-mail-icon:hover {
     border: 1px solid white;
     border-radius: 5px;
-    padding-top: 10px;
-    transform: translate(1px, 0px);
+    box-shadow: 0 0 10px white;
+ 
 }
 .fa-envelope {
     color: rgba(195, 120, 0, 0.329);
@@ -89,12 +91,12 @@ footer {
     margin-top: 0px;
     
 }
-.fa-brands {
+.social-media-icons .fa-brands {
     color: beige;
     background-image: none;
     border-radius: 100px;
     transition: box-shadow .20s;
 }
-.fa-brands:hover {
-    box-shadow: 0 0 30px rgb(255, 255, 255);
+.social-media-icons .fa-brands:hover {
+    color: rgb(212, 162, 0);
 } 
