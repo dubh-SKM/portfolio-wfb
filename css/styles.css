@@ -9,7 +9,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     /* background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .9)), url(/portfolio-wfb/img/skills1.jpg); */
-    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.922), rgba(122, 39, 0, 0.2)), url(/portfolio-wfb/img/background.jpg);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.922), rgba(122, 39, 0, 0.2)), url(../img/background.jpg);
     /* background-image: url(/portfolio-wfb/img/skills1.jpg); */
     background-size: cover;
     background-attachment: fixed;
